@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 alert("Registration successful!\nName: " + name + "\nEmail: " + email + "\nDestination: " + destination + "\nDate: " + date + "\nPhone: " + phone);
                 form.reset();
-                window.location.href = "home.html"; // Redirect to home page
+                window.location.href = "index.html"; // Redirect to home page
             }
         }
     });
