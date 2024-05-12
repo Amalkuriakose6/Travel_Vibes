@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> 
+</head>
+
+<body>   
+    
+ 
+    <div class="content">
+        
+        <div class="banner-area">
+            <span id="center">
+                <img class="logo" src="https://webstockreview.net/images/traveling-clipart-travel-tourism-9.png" alt="">
+                <p id="name">Travel Vibes</p>
+            </span>
+            <h2>
+                Come and enjoy, <span class="type"></span>
+            </h2>
+        </div>
+
+        <div class="wrapper">
+            <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+            
+            <div class="form-box-login">
+                <h2 id="logintext">Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </span>
+                        <input id="useremail" type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+                        <input id="loginPassword" type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="button" class="btn" onclick="validateLogin()">Login</button>
+                    <p id="loginMessage"></p>
+                    <div class="login-register">
+                        <p>Don't have an account? <a href="Registration.html" class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <div>
+                <h3>Location</h3>
+                <ul>
+                    <li>Toronto</li>
+                    <li>Mississauga</li>
+                    <li>Quebec</li>
+                    <li>Kitchener</li>
+                </ul>
+            </div>
+           
+            <div>
+                <h3>Contact</h3>
+                <ul>
+                    <li>Ph: +1226-456-789</li>
+                    <li>M: +1-479-562-357</li>
+                    <li>E: info@amal.com</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Services</h3>
+                <ul>
+                    <li>Easy Payment Options</li>
+                    <li>24 x 7 Available</li>
+                </ul>
+            </div>
+            <p id="copyright">Copyright &copy; 2023 Travelvibes</p>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
